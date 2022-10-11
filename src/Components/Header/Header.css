@@ -1,0 +1,8 @@
+.navbar-nav a{
+   font-weight: bold!important;
+   font-size: 18px;
+   color: #000;
+}
+.navbar-nav {
+    margin-left: auto;
+}
