@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import './Header.css'
 
 import Navbar from "react-bootstrap/Navbar";
-import Bg from "../Background/Bg";
+
 
 const Header = () => {
   return (
@@ -25,7 +25,7 @@ const Header = () => {
         </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Bg/>
+    
     </div>
   );
 };

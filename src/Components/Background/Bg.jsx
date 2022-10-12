@@ -8,8 +8,8 @@ const Bg = () => {
       <div className="background_text">
        
         <h1 className=" ">Welcome to Quizadda</h1>
-        <p>
-          It helps us to learn easy with fun. It is effective to test ourselves
+        <p className="text-center">
+          It helps us to learn easy with fun.It is effective <br/> to test ourselves
           quickly on all topics.
         </p>
         
