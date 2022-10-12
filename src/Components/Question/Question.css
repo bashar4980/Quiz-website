@@ -3,20 +3,26 @@
       margin-top: 15px;
       margin-bottom: 15px;
 }
+
 .question_part{
-    width: 60%;
+    width: 85%;
+    
    
 }
 .question_option{
     padding: 20px;
+    background-color: #F8F9FA!important;
 }
 .option_text{
-    font-size: 25px;
-    margin-left: 20px;
+    font-size: 18px;
+    margin-left: 5px;
 }
 input[type=radio] {
     border: 0px;
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 15px;
    
+}
+.card-body{
+    padding: 5px!important;
 }

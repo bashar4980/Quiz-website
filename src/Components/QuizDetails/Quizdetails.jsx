@@ -11,19 +11,28 @@ const Quizdetails = () => {
     const {total , name , questions} = singleQuiz.data
   
     return (
-        <div>
-             <h1 className='text-center'>Quiz of {name}</h1>
+        <div className='question_details pt-5'>
+             <h1 className='text-center'>Quiz of <span className='text-primary'>{name}</span></h1>
              <h3 className='text-center'>Total Quiz {total}</h3>
            
             <Container>
-                <Row className="question_part mx-auto">
+                <Row className="question_part mx-auto mb-5 pb-5">
+                  
+                    <div>
+
                     {
                         questions.map(question =>{
                             return(
-                                <Question key={question.id} questions={question}></Question>
+                               <div>
+                                
+                                <Question key={question.id} questions={question}>
+                               
+                                </Question>
+                               </div>
                             )
                         })
                     }
+                    </div>
                 </Row>
             </Container>
         </div>
