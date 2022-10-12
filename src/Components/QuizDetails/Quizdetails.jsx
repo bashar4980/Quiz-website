@@ -2,13 +2,15 @@ import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { useLoaderData } from 'react-router-dom';
 import Question from '../Question/Question';
+
 import '../Question/Question.css'
 
 
 
 const Quizdetails = () => {
     const singleQuiz = useLoaderData();
-    const {total , name , questions} = singleQuiz.data
+    const {total , name , questions} = singleQuiz.data;
+
   
     return (
         <div className='question_details pt-5'>
@@ -27,7 +29,7 @@ const Quizdetails = () => {
                                 
                                 <Question key={question.id} questions={question}>
                                
-                                </Question>
+                                </Question> 
                                </div>
                             )
                         })
