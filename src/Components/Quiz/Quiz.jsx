@@ -9,13 +9,13 @@ const Quiz = ({quiz}) => {
     return (
       
          
-        <Col lg={3}>
+        <Col lg={3} md={3}sm={6}>
         
          
         <div className="card card_section">
                     <img src={logo} className="card-img-top" alt="card_img" />
              
-                <div className="card-body d-flex justify-content-between align-items-center">
+                <div className="card-body py-5 d-flex justify-content-between align-items-center">
                    <div className="card_info">
                    <h5 className="card-title">
                        {name}

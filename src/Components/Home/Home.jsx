@@ -15,7 +15,7 @@ const Home = () => {
     <div>
       <Bg></Bg>
 
-      <Row className="quize_section my-5">
+      <Row className="quize_section my-5 g-2">
         
         <h3 className="text-center fw-bold mb-5">Let's Start</h3>
        

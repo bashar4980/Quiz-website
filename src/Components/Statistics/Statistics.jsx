@@ -21,7 +21,7 @@ const Statistics = () => {
       <Container>
         <Row>
        <Col>
-       <LineChart width={500} height={400} data={data} className="statistics_data">
+       <LineChart width={400} height={400} data={data} className="statistics_data">
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
