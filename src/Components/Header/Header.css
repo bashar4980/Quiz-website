@@ -6,3 +6,9 @@
 .navbar-nav {
     margin-left: auto;
 }
+.navbar-nav a:hover{
+    color: #F58588;
+}
+.navbar-brand{
+    color: #F58588!important;
+}

@@ -4,13 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import './Header.css'
 
 import Navbar from "react-bootstrap/Navbar";
+import Bg from "../Background/Bg";
 
 const Header = () => {
   return (
     <div>
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand  className="fw-bold text-primary">Quizadda</Navbar.Brand>
+          <Navbar.Brand  className="fw-bold">Quizadda</Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
@@ -24,6 +25,7 @@ const Header = () => {
         </Navbar.Collapse>
         </Container>
       </Navbar>
+      <Bg/>
     </div>
   );
 };
