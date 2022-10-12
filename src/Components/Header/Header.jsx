@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import {  NavLink } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav';
 import './Header.css'
 
@@ -15,7 +16,8 @@ const Header = () => {
           <Navbar.Toggle />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-            <Nav.Link href="/">Home</Nav.Link>
+          
+            <NavLink className="nav-link" to='/home'>Home</NavLink>
             <Nav.Link href="/">Statistics</Nav.Link>
             <Nav.Link href="/">Blog</Nav.Link>
             <Nav.Link href="/">About</Nav.Link>

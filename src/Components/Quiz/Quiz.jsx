@@ -1,10 +1,11 @@
 import React from 'react';
-import './quize.css'
+import './quiz.css'
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 
 
-const Quize = ({quize}) => {
-    const { name , logo , total} = quize
+const Quiz = ({quiz}) => {
+    const {id , name , logo , total} = quiz
     return (
       
          
@@ -14,14 +15,18 @@ const Quize = ({quize}) => {
         <div className="card">
                     <img src={logo} className="card-img-top" alt="card_img" />
              
-                <div className="card-body">
-                    <h5 className="card-title">
+                <div className="card-body d-flex justify-content-between align-items-center">
+                   <div className="card_info">
+                   <h5 className="card-title">
                        {name}
                     </h5>
                     <p className="card-text">
                         Total Quize: {total}
                     </p>
-                    <button className='btn btn-primary'>Start Now..</button>
+                   </div>
+                   <div >
+                    <Link to={`/quiz/${id}`}><button className="btn btn-primary ">Start Now</button></Link>
+                   </div>
                 </div>
                 </div>
         </Col>
@@ -31,4 +36,4 @@ const Quize = ({quize}) => {
     );
 };
 
-export default Quize;
+export default Quiz;
