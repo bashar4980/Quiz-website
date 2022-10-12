@@ -12,7 +12,7 @@ const Quiz = ({quiz}) => {
         <Col lg={3}>
         
          
-        <div className="card">
+        <div className="card card_section">
                     <img src={logo} className="card-img-top" alt="card_img" />
              
                 <div className="card-body d-flex justify-content-between align-items-center">

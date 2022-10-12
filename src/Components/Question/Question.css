@@ -1,0 +1,22 @@
+.question_section h3{
+      font-size: 25px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+.question_part{
+    width: 60%;
+   
+}
+.question_option{
+    padding: 20px;
+}
+.option_text{
+    font-size: 25px;
+    margin-left: 20px;
+}
+input[type=radio] {
+    border: 0px;
+    width: 30px;
+    height: 20px;
+   
+}
